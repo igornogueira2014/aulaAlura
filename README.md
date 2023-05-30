@@ -1,2 +1,3 @@
 # aulaAlura
  HTML e CSS: praticando .....
+Nessa video aula estou aprendendo a estruturar um site, partindo do zero.
