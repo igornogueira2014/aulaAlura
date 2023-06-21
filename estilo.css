@@ -77,13 +77,32 @@ body {
     color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
-
 .descricao__texto {
     color: var(--cinza-secundario);
 }
-
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
     padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+    
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.list__item {
+    font-size: 32px;
 }
