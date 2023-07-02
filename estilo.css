@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal:'Inter';
+    --botao-azul-efeito:#458fe9;
 }
 
 body {
@@ -86,17 +87,18 @@ body {
     padding: 2em;
 }
 
-.dispositivos__lista {
+.dispositivos {
+    text-align: center;
+    
+}
+.dispositivos__lista { /* formatação da lista*/
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin: 5em 0;
 }
 
-.dispositivos {
-    text-align: center;
-    
-}
+
 
 .dispositivos__titulo {
     font-size: 48px;
@@ -105,4 +107,38 @@ body {
 
 .list__item {
     font-size: 32px;
+}
+
+.rodape { /* consegui aqui alinhar, toda  seção no centro*/
+    text-align: center;
+    margin: 5em 3em;
+}
+.rodapé__lista {
+    display:flex;
+    justify-content:center;
+    list-style-type: none;
+    margin-top: 3em;
+}
+.lista__link a{ /* quando for setar as lista, temos q referênciar a anconra pra dá certo!*/
+    text-decoration: none;
+    color:var(--branco-principal);
+    list-style-type: none;
+    margin: 1em;
+}
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+.lista__link a:active {
+    color: purple;
+}
+
+.rodape__texto {
+    margin: 2em;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito) ;
+    color: var(--cor-de-fundo);
 }
